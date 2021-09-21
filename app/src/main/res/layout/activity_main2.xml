@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="335dp"
+        android:layout_height="77dp"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="Basic Banking System "
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="335dp"
+        android:layout_height="255dp"
+        android:paddingBottom="40dp"
+        app:srcCompat="@drawable/ic_bank_svgrepo_com__1_" />
+
+    <Button
+        android:id="@+id/users"
+        android:layout_width="215dp"
+        android:layout_height="75dp"
+        android:insetTop="20dp"
+        android:text="Users"
+        android:textSize="24dp" />
+
+</LinearLayout>

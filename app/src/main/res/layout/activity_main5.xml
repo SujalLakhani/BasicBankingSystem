@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:focusable="true"
+    tools:context=".MainActivity5" >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="215dp"
+        android:layout_height="213dp"
+        app:srcCompat="@drawable/ic_bank_svgrepo_com__1_" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="Enter The Amount -"
+        android:textColor="@color/black"
+        android:textSize="34dp" />
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="30dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:paddingLeft="80dp"
+            app:srcCompat="@drawable/ic_baseline_attach_money_24" />
+
+        <EditText
+            android:id="@+id/Dollors"
+            android:layout_width="185dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textColor="@color/blue"
+            android:textSize="38dp"
+            android:textStyle="bold"
+            android:focusable="true"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="215dp"
+        android:layout_height="60dp"
+        android:text="Transfer"
+        android:textSize="24dp" />
+</LinearLayout>
